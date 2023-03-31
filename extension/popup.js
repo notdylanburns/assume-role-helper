@@ -33,7 +33,7 @@ roleSelection.addEventListener("change", () => {
 });
 
 console.log("load");
-fetch("http://localhost:130323/config.json")
+fetch("http://localhost:13323/config.json")
     .then(resp => resp.json())
     .then(data => {
         const selection = document.getElementById("roleSelection");
